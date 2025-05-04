@@ -15,5 +15,11 @@ namespace EmployeeSystem.Controllers
         {
             _context = context;
         }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        {
+            return await _context.Employees.ToListAsync();
+        }
     }
 }
