@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x+1/BtooaDg9iq4pnq2NTmffmK0UqB6YXn/g/A1ItaW5145DbdRuxAiAK7Gypkt656o+oq4EfZyxLTlp/bc1Bw==",
+  "dgSpecHash": "nbh6jpNIq2wncn2uDdu1UYQu6jj81Wq3jHrUUwgEcROKcs7Ck93uqtNdsOC8ggHX3kMb0myT7nC0GV6uQpOoXg==",
   "success": true,
-  "projectFilePath": "C:\\EmployeeSystem\\employeesystem\\EmployeeSystem.csproj",
+  "projectFilePath": "C:\\EmployeeSystem\\employeesystem\\backend\\EmployeeSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mikha\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.15\\microsoft.aspnetcore.openapi.8.0.15.nupkg.sha512",
