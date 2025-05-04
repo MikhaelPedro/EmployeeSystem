@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmployeeSystem.Data;
+using EmployeeSystem.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeSystem.Controllers
 {
@@ -35,7 +38,7 @@ namespace EmployeeSystem.Controllers
         {
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetEmployee), new { id = employee.Id }, employee);
+            return CreatedAtAction(nameof(GetEmployeeById), new { id = employee.Id }, employee);
         }
 
         [HttpPut("{id}")]
