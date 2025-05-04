@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=funcionarios.db"));
+    options.UseSqlite("Data Source=employees.db"));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
