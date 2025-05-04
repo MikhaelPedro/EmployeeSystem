@@ -3693,11 +3693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
+      "projectUniqueName": "C:\\EmployeeSystem\\employeesystem\\backend\\EmployeeSystem.csproj",
       "projectName": "EmployeeSystem",
-      "projectPath": "C:\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
+      "projectPath": "C:\\EmployeeSystem\\employeesystem\\backend\\EmployeeSystem.csproj",
       "packagesPath": "C:\\Users\\mikha\\.nuget\\packages\\",
-      "outputPath": "C:\\EmployeeSystem\\EmployeeSystem\\obj\\",
+      "outputPath": "C:\\EmployeeSystem\\employeesystem\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikha\\AppData\\Roaming\\NuGet\\NuGet.Config"
