@@ -8,18 +8,26 @@ namespace EmployeeSystem.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class EmployeeController : ControllerBase
+    public class EmployeesController : ControllerBase
     {
         private readonly AppDbContext _context;
-        public FuncionariosController(AppDbContext context)
+        public EmployeesController(AppDbContext context)
         {
             _context = context;
         }
-
+       
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
         {
             return await _context.Employees.ToListAsync();
+        }
+        
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Employee>> GetEmployeeById(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null) return NotFound();
+            return employee;
         }
     }
 }
